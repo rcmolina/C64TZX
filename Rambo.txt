@@ -1,0 +1,3 @@
+tap2audio -f 11025 -i "Rambo (Europe).tap" "Rambo (Europe).wav"
+sox "Rambo (Europe).wav" "Rambo (Europe).voc"
+direct "Rambo (Europe).voc" "Rambo (Europe)_11KHz.tzx"
